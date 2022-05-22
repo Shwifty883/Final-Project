@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+}
+
+.outside_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.registration_container {
+    border: 2px solid green;
+    border-radius: 10px;
+    max-width: 550px;
+}
+
+input[type=text], select {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[id=submit] {
+    width: 350px;
+    background-color: green;
+    color: gold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-variant: all-petite-caps;
+    font-weight: bold;
+}
+
+input[id=submit]:hover{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border: 2px solid green;
+}
+
+form {
+    padding: 15px;
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+}
